@@ -1,0 +1,54 @@
+{
+  "bookings": [
+    {
+        "code": "จป-69001",
+        "name": "ประชุมวางแผนงานประจำเดือน",
+        "locationNameTH": "ห้องรถเมล์มหานคร",
+        "locationNameEN": "Metropolis Bus",
+        "startTime": 1769656072,
+        "endTime": 1769656072,
+        "id": "1",
+        "attendeeCount": 5
+    },
+    {
+        "code": "จป-69003",
+        "name": "ประชุมทีมพัฒนาโครงการ",
+        "locationNameTH": "ห้องประชุมรถเมล์ชุมชน",
+        "locationNameEN": "Community Bus",
+        "startTime": 1769656012,
+        "endTime": 1769656012,
+        "id": "2",
+        "attendeeCount": 20
+    },
+    {
+        "code": "จป-69005",
+        "name": "ประชุมคณะทำงานพัฒนาระบบ IT",
+        "locationNameTH": "ห้องรถเมล์เมือง",
+        "locationNameEN": "City Bus",
+        "startTime": 1769655952,
+        "endTime": 1769655952,
+        "id": "3",
+        "attendeeCount": 4
+    },
+    {
+        "code": "จป-69006",
+        "name": "ประชุมวางแผนยุทธศาสตร์องค์กร Q1",
+        "locationNameTH": "ห้องรถเมล์มหานคร",
+        "locationNameEN": "Metropolis Bus",
+        "startTime": 1769655892,
+        "endTime": 1769655892,
+        "id": "4",
+        "attendeeCount": 10
+    },
+    {
+        "code": "จป-69007",
+        "name": "อบรมพัฒนาทักษะการสื่อสารภายในองค์กร",
+        "locationNameTH": "ห้องประชุมรถเมล์ชุมชน",
+        "locationNameEN": "Community Bus",
+        "startTime": 1769655832,
+        "endTime": 1769655832,
+        "id": "5",
+        "attendeeCount": 30
+    }
+]
+}
