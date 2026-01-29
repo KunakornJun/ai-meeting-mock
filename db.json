@@ -1,59 +1,137 @@
 {
-  "bookings": [
-    {
-        "code": "จป-69001",
-        "name": "ประชุมวางแผนงานประจำเดือน",
-        "locationNameTH": "ห้องรถเมล์มหานคร",
-        "locationNameEN": "Metropolis Bus",
-        "startTime": 1769656072,
-        "endTime": 1769656072,
-        "id": "1",
-        "attendeeCount": 5,
-        "status": "APPROVED"
-    },
-    {
-        "code": "จป-69003",
-        "name": "ประชุมทีมพัฒนาโครงการ",
-        "locationNameTH": "ห้องประชุมรถเมล์ชุมชน",
-        "locationNameEN": "Community Bus",
-        "startTime": 1769656012,
-        "endTime": 1769656012,
-        "id": "2",
-        "attendeeCount": 20,
-        "status": "APPROVED"
-    },
-    {
-        "code": "จป-69005",
-        "name": "ประชุมคณะทำงานพัฒนาระบบ IT",
-        "locationNameTH": "ห้องรถเมล์เมือง",
-        "locationNameEN": "City Bus",
-        "startTime": 1769655952,
-        "endTime": 1769655952,
-        "id": "3",
-        "attendeeCount": 4,
-        "status": "APPROVED"
-    },
-    {
-        "code": "จป-69006",
-        "name": "ประชุมวางแผนยุทธศาสตร์องค์กร Q1",
-        "locationNameTH": "ห้องรถเมล์มหานคร",
-        "locationNameEN": "Metropolis Bus",
-        "startTime": 1769655892,
-        "endTime": 1769655892,
-        "id": "4",
-        "attendeeCount": 10,
-        "status": "APPROVED"
-    },
-    {
-        "code": "จป-69007",
-        "name": "อบรมพัฒนาทักษะการสื่อสารภายในองค์กร",
-        "locationNameTH": "ห้องประชุมรถเมล์ชุมชน",
-        "locationNameEN": "Community Bus",
-        "startTime": 1769655832,
-        "endTime": 1769655832,
-        "id": "5",
-        "attendeeCount": 30,
-        "status": "PENDING"
-    }
-]
+    "bookings": [
+        {
+            "code": "จป-69001",
+            "name": "ประชุมวางแผนงานประจำเดือน",
+            "locationNameTH": "ห้องรถเมล์มหานคร",
+            "locationNameEN": "Metropolis Bus",
+            "startTime": 1769656072,
+            "endTime": 1769656072,
+            "id": "1",
+            "attendeeCount": 5,
+            "status": "APPROVED"
+        },
+        {
+            "code": "จป-69003",
+            "name": "ประชุมทีมพัฒนาโครงการ",
+            "locationNameTH": "ห้องประชุมรถเมล์ชุมชน",
+            "locationNameEN": "Community Bus",
+            "startTime": 1769656012,
+            "endTime": 1769656012,
+            "id": "2",
+            "attendeeCount": 20,
+            "status": "APPROVED"
+        },
+        {
+            "code": "จป-69005",
+            "name": "ประชุมคณะทำงานพัฒนาระบบ IT",
+            "locationNameTH": "ห้องรถเมล์เมือง",
+            "locationNameEN": "City Bus",
+            "startTime": 1769655952,
+            "endTime": 1769655952,
+            "id": "3",
+            "attendeeCount": 4,
+            "status": "APPROVED"
+        },
+        {
+            "code": "จป-69006",
+            "name": "ประชุมวางแผนยุทธศาสตร์องค์กร Q1",
+            "locationNameTH": "ห้องรถเมล์มหานคร",
+            "locationNameEN": "Metropolis Bus",
+            "startTime": 1769655892,
+            "endTime": 1769655892,
+            "id": "4",
+            "attendeeCount": 10,
+            "status": "APPROVED"
+        },
+        {
+            "code": "จป-69007",
+            "name": "อบรมพัฒนาทักษะการสื่อสารภายในองค์กร",
+            "locationNameTH": "ห้องประชุมรถเมล์ชุมชน",
+            "locationNameEN": "Community Bus",
+            "startTime": 1769655832,
+            "endTime": 1769655832,
+            "id": "5",
+            "attendeeCount": 30,
+            "status": "PENDING"
+        }
+    ],
+    "meetings": [
+        {
+            "id": "123",
+            "code": "ปช-69003",
+            "bookingId": "1",
+            "meetingType": "BOARD",
+            "meetingTypeNameTH": "ประชุม Board",
+            "name": "ประชุมวางแผนงานประจำเดือน",
+            "locationNameTH": "ห้องรถเมล์มหานคร",
+            "locationNameEN": "Metropolis Bus",
+            "agenda": [
+                {
+                    "agendaTopic": "เรื่องแจ้งเพื่อทราบ",
+                    "agendaSeq": "1",
+                    "agendaSub": [
+                        {
+                            "agendaTopic": "รายงานผลการดำเนินงานประจำเดือน",
+                            "agendaSubSeq": "1.1"
+                        }
+                    ]
+                },
+                {
+                    "agendaTopic": "เรื่องเสนอเพื่อพิจารณา",
+                    "agendaSeq": "2",
+                    "agendaSub": [
+                        {
+                            "agendaTopic": "งบประมาณประจำปี 2568",
+                            "agendaSubSeq": "2.1"
+                        },
+                        {
+                            "agendaTopic": "แผนพัฒนาระบบสารสนเทศ",
+                            "agendaSubSeq": "2.2"
+                        }
+                    ]
+                }
+            ],
+            "isSendAgenda": true,
+            "participants": [
+                {
+                    "userId": "1",
+                    "fullNameTH": "นายสมชาย ใจดี",
+                    "positionName": "ประธาน",
+                    "participantType": "COMMITTEE",
+                    "participantTypeNameTH": "กรรมการ",
+                    "isAllAgenda": false,
+                    "agenda": [
+                        "1.1",
+                        "2.1"
+                    ]
+                }
+            ],
+            "isFollower": true,
+            "relatedMeeting": {
+                "code": "ปช-69002",
+                "name": "การประชุมคณะกรรมการบริหาร ครั้งที่ 1/2568",
+                "statusCode": "5",
+                "statusNameTH": "รับรองรายงานการประชุม",
+                "attachments": [
+                    "รายงานการประชุมครั้งที่ 1-2568.pdf",
+                    "เอกสารประกอบวาระที่ 2.1.pdf",
+                    "เอกสารประกอบวาระที่ 2.2.pdf"
+                ]
+            },
+            "attachments": [
+                {
+                    "fileName": "เอกสารประกอบวาระที่ 1.1.pdf",
+                    "agendaSeq": "1",
+                    "agendaSubSeq": "1.1"
+                },
+                {
+                    "fileName": "เอกสารประกอบวาระที่ 2.1.pdf",
+                    "agendaSeq": "2",
+                    "agendaSubSeq": "2.1"
+                }
+            ],
+            "statusCode": "1"
+        }
+    ]
 }
