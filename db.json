@@ -122,6 +122,138 @@
                 }
             ],
             "statusCode": "1"
-        }
+        },
+        {
+    "id": "125",
+    "code": "ปช-69013",
+    "bookingId": "3",
+    "meetingType": "BOARD",
+    "meetingTypeNameTH": "ประชุม Board",
+    "name": "ประชุมปิดงบ",
+    "locationNameTH": "ห้องรถเมล์มหานคร",
+    "locationNameEN": "Metropolis Bus",
+    "agenda": [
+      {
+        "agendaTopic": "เรื่องแจ้งเพื่อทราบ",
+        "agendaSeq": "1",
+        "agendaSub": [
+          {
+            "agendaTopic": "รายงานผลการดำเนินงานประจำเดือน",
+            "agendaSubSeq": "1.1"
+          }
+        ]
+      },
+      {
+        "agendaTopic": "เรื่องเสนอเพื่อพิจารณา",
+        "agendaSeq": "2",
+        "agendaSub": [
+          {
+            "agendaTopic": "งบประมาณประจำปี 2568",
+            "agendaSubSeq": "2.1"
+          },
+          {
+            "agendaTopic": "แผนพัฒนาระบบสารสนเทศ",
+            "agendaSubSeq": "2.2"
+          }
+        ]
+      }
+    ],
+    "isSendAgenda": true,
+    "participants": [
+      {
+        "userId": "1",
+        "fullNameTH": "นายสมชาย ใจดี",
+        "positionName": "ประธาน",
+        "participantType": "COMMITTEE",
+        "participantTypeNameTH": "กรรมการ",
+        "isAllAgenda": false,
+        "agenda": [
+          "1.1",
+          "2.1"
+        ]
+      }
+    ],
+    "isFollower": true,
+    "relatedMeeting": "122",
+    "attachments": [
+      {
+        "fileName": "เอกสารประกอบวาระที่ 1.1.pdf",
+        "agendaSeq": "1",
+        "agendaSubSeq": "1.1"
+      },
+      {
+        "fileName": "เอกสารประกอบวาระที่ 2.1.pdf",
+        "agendaSeq": "2",
+        "agendaSubSeq": "2.1"
+      }
+    ],
+    "statusCode": "5"
+  },
+        {
+    "id": "126",
+    "code": "ปช-69014",
+    "bookingId": "3",
+    "meetingType": "BOARD",
+    "meetingTypeNameTH": "ประชุม Board",
+    "name": "ประชุมวางแผนยุทธศาสตร์องค์กร",
+    "locationNameTH": "ห้องรถเมล์มหานคร",
+    "locationNameEN": "Metropolis Bus",
+    "agenda": [
+      {
+        "agendaTopic": "เรื่องแจ้งเพื่อทราบ",
+        "agendaSeq": "1",
+        "agendaSub": [
+          {
+            "agendaTopic": "รายงานผลการดำเนินงานประจำเดือน",
+            "agendaSubSeq": "1.1"
+          }
+        ]
+      },
+      {
+        "agendaTopic": "เรื่องเสนอเพื่อพิจารณา",
+        "agendaSeq": "2",
+        "agendaSub": [
+          {
+            "agendaTopic": "งบประมาณประจำปี 2568",
+            "agendaSubSeq": "2.1"
+          },
+          {
+            "agendaTopic": "แผนพัฒนาระบบสารสนเทศ",
+            "agendaSubSeq": "2.2"
+          }
+        ]
+      }
+    ],
+    "isSendAgenda": true,
+    "participants": [
+      {
+        "userId": "1",
+        "fullNameTH": "นายสมชาย ใจดี",
+        "positionName": "ประธาน",
+        "participantType": "COMMITTEE",
+        "participantTypeNameTH": "กรรมการ",
+        "isAllAgenda": false,
+        "agenda": [
+          "1.1",
+          "2.1"
+        ]
+      }
+    ],
+    "isFollower": false,
+    "relatedMeeting": null,
+    "attachments": [
+      {
+        "fileName": "เอกสารประกอบวาระที่ 1.1.pdf",
+        "agendaSeq": "1",
+        "agendaSubSeq": "1.1"
+      },
+      {
+        "fileName": "เอกสารประกอบวาระที่ 2.1.pdf",
+        "agendaSeq": "2",
+        "agendaSubSeq": "2.1"
+      }
+    ],
+    "statusCode": "4"
+  }
     ]
 }
