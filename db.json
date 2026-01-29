@@ -8,7 +8,8 @@
         "startTime": 1769656072,
         "endTime": 1769656072,
         "id": "1",
-        "attendeeCount": 5
+        "attendeeCount": 5,
+        "status": "APPROVED"
     },
     {
         "code": "จป-69003",
@@ -18,7 +19,8 @@
         "startTime": 1769656012,
         "endTime": 1769656012,
         "id": "2",
-        "attendeeCount": 20
+        "attendeeCount": 20,
+        "status": "APPROVED"
     },
     {
         "code": "จป-69005",
@@ -28,7 +30,8 @@
         "startTime": 1769655952,
         "endTime": 1769655952,
         "id": "3",
-        "attendeeCount": 4
+        "attendeeCount": 4,
+        "status": "APPROVED"
     },
     {
         "code": "จป-69006",
@@ -38,7 +41,8 @@
         "startTime": 1769655892,
         "endTime": 1769655892,
         "id": "4",
-        "attendeeCount": 10
+        "attendeeCount": 10,
+        "status": "APPROVED"
     },
     {
         "code": "จป-69007",
@@ -48,7 +52,8 @@
         "startTime": 1769655832,
         "endTime": 1769655832,
         "id": "5",
-        "attendeeCount": 30
+        "attendeeCount": 30,
+        "status": "PENDING"
     }
 ]
 }
